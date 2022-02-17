@@ -44,7 +44,12 @@ https://tutorial.djangogirls.org/pt/
 
 16 → Deploy → Instalar git → sudo apt install git, iniciar o diretório com git, configurar git ignore,  git status, git add –all . para adicionar tudo(não esquecer o ponto), git commit -m “”, git branch -m “main” para mudar a branch principal, criar origem do diretório no gitHub e adicionar a mesma no git(git remote add origin) e git push -u origin main para colocar no github.
 	
-    16.1 → PythonAnyWhere → Criar uma conta gratuita -> beginner(iniciante). Ir na opção conta, escolher api token e depois criar um new api token. Ir na dashboard e new console bash. Instalar o pythonanywhere -> $ pip3.6 install --user pythonanywhere. Configurar a aplicação a partir do github -> pa_autoconfigure_django.py https://github.com/<your-github-username>/my-first-blog.git . Criar novo banco de dados para o usuário online -> python manage.py createsuperuser.  Podemos visualizar as pastas com ls ou acessar o nosso blog.
+    16.1 → PythonAnyWhere → Criar uma conta gratuita -> beginner(iniciante).
+	Ir na opção conta, escolher api token e depois criar um new api token. 
+	Ir na dashboard e new console bash. Instalar o pythonanywhere -> $ pip3.6 install --user pythonanywhere.
+	Configurar a aplicação a partir do github -> pa_autoconfigure_django.py https://github.com/<your-github-username>/my-first-blog.git . 
+	Criar novo banco de dados para o usuário online -> python manage.py createsuperuser.  
+	Podemos visualizar as pastas com ls ou acessar o nosso blog.
 
 17 →  URL’s → Adicionar URL do blog, adicionando include e a URL →path('', include('blog.urls')),
 
